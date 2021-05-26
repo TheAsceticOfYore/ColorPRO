@@ -1,0 +1,281 @@
+/* FONTS ________________________________________________________________*/
+@font-face{
+  font-family: "Inter-ExtraLight";
+  src: url("../fonts/Inter-ExtraLight.ttf");
+}
+
+@font-face{
+  font-family: "Inter-Medium";
+  src: url("../fonts/Inter-Medium.ttf");
+}
+
+/* GLOBAL ________________________________________________________________*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #202020;
+}
+
+
+
+/* LOCAL ________________________________________________________________*/
+
+/* MainContainter ________________________________________________________________*/
+.MainContainter{
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: calc(100vw - (100vw - 100%));
+  /* width: $('body').innerWidth(); */
+  height: 100vh;
+  /* border: 4px solid yellow; */
+  border-right-color: indigo;
+  border-left-color: indigo;
+}
+
+/* Header ________________________________________________________________*/
+.Header{
+  justify-content: space-between;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 9%;
+  background-color: #121212;
+  /* border: 2px solid magenta; */
+}
+
+.HeaderBlock{
+  padding: 0;
+  margin: 0;
+  width: 33.3%;
+  height: 100%;
+  user-select: none;
+  border: 0px solid gold;
+  background-color: transparent;
+}
+
+.HeaderAppLogo{
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 1% 0 1% 0;
+  height: 100%;
+  background-color: transparent;
+}
+
+.HeaderTheAsceticOfYoreLogo{
+  display: block;
+  float: right;
+  margin: 0 1% 0 0;
+  padding: 1% 0 1% 0;
+  height: 100%;
+  background-color: transparent;
+}
+
+.HeaderTheAsceticOfYoreLogo:hover{
+  filter: invert(1);
+}
+
+/* UnderHeader Line ________________________________________________________________*/
+.UnderHeaderLine{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 0.3%;
+  background-color: #fff;
+  /* background: linear-gradient(to bottom, rgba(255, 0, 0, 1) 10%, rgba(255, 0, 0, 0)); */
+  /* border: 2px solid indigo; */
+}
+
+/* AppNameTop ________________________________________________________________*/
+.AppNameTop{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1% 0 0 0;
+  width: 100%;
+  height: 9%;
+  user-select: none;
+  /* border: 2px solid white; */
+}
+
+.AppNameTopSvg{
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  height: 100%;
+}
+
+/* ShortDescription ________________________________________________________________*/
+.ShortDescription{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1% 0 0 0;
+  width: 100%;
+  height: auto;
+  /* border: 2px solid white; */
+}
+
+.ShortDescription h1{
+  display: block;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-family: Inter-Medium;
+  font-size: calc(1.6vw + 1.6vh);
+}
+
+/* Showcase Image ________________________________________________________________*/
+.ShowcaseImage{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1% 0 1% 0;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  /* border: 2px solid white; */
+}
+.MainShowcaseImage{
+  padding: 0.4%;
+  margin: 0;
+  width: 85%;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+/* Horizontal Line ________________________________________________________________*/
+.HorizontalLine{
+  padding: 0;
+  margin: 1.5% 0 1.5% 0;
+  width: 100%;
+  height: 0.3%;
+  background: #fff;
+}
+
+/* Description ________________________________________________________________*/
+.Description{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1% 0 0 0;
+  width: 100%;
+  height: auto;
+  /* border: 2px solid white; */
+}
+
+.Description h1{
+  display: block;
+  padding: 0;
+  margin: 0 5% 0 5%;
+  text-align: center;
+  color: #fff;
+  font-family: Inter-ExtraLight;
+  font-size: calc(1.6vw + 1.6vh);
+}
+
+/* AppLogoBottom ________________________________________________________________*/
+.AppLogoBottom{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1% 0 0 0;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  /* border: 2px solid white; */
+}
+
+.AppLogoBottomImg{
+  padding: 0;
+  margin: 0;
+  width: 14%;
+  height: 100%;
+}
+
+/* BitText ________________________________________________________________*/
+.BitText{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.BitText h1{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-family: Inter-ExtraLight;
+  font-size: calc(1.5vw + 1.5vh);
+}
+
+/* Footer */
+.MyFooter{
+  padding: 0;
+  margin: 1% 0 0 0;
+  width: 100%;
+  height: 0.3%;
+  background-color: #fff;
+}
+
+/* MainMyFooter */
+.MainMyFooter{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: #121212;
+}
+
+.MainMyFooter h1{
+  padding: 0;
+  margin: 0.5%;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  font-family: Inter-ExtraLight;
+  font-size: calc(0.9vw + 0.9vh);
+}
+
+/* DownloadButton */
+.DownloadButton{
+  /* display: flex;
+  justify-content: center; */
+  padding: 0;
+  margin: 1% 0 0 0;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  /* border: 2px solid white; */
+}
+
+.DownloadButton img{
+  padding: 0;
+  margin: 0;
+  width: 15%;
+  /* border: 2px solid indigo; */
+}
+
+/* DownloadDescription */
+.DownloadDescription{
+  padding: 0;
+  margin: 0.1% 0 0 0;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  /* border: 2px solid indigo; */
+}
+
+.DownloadDescription img{
+  padding: 0;
+  margin: 0;
+  width: 9%;
+}
